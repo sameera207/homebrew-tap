@@ -1,10 +1,10 @@
-# Template: the release workflow fills in 0.3.0 and eb72fa34478f89fef3c87a37876afb34584e2ab3f3694f60e5c51676e893085b and commits
+# Template: the release workflow fills in 0.4.0 and e9a0ac5d740c3c5176b9cb999678bb04f4318bb60746ab7dc26843eddf9bb77a and commits
 # the result to github.com/sameera207/homebrew-tap.
 class VoiceDraft < Formula
   desc "Private, on-device dictation for macOS (whisper.cpp + Ollama + Hammerspoon)"
   homepage "https://github.com/sameera207/voice-draft"
-  url "https://github.com/sameera207/voice-draft/releases/download/v0.3.0/voice-draft-0.3.0.tar.gz"
-  sha256 "eb72fa34478f89fef3c87a37876afb34584e2ab3f3694f60e5c51676e893085b"
+  url "https://github.com/sameera207/voice-draft/releases/download/v0.4.0/voice-draft-0.4.0.tar.gz"
+  sha256 "e9a0ac5d740c3c5176b9cb999678bb04f4318bb60746ab7dc26843eddf9bb77a"
 
   depends_on arch: :arm64
   depends_on :macos
